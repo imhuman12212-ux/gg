@@ -1,0 +1,1907 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="أكاديمية إنسان — نبني الإنسان لنصنع الأثر. برامج، مهارات، قيادة وتجارب تعليمية متكاملة.">
+
+    <title>أكاديمية إنسان | نبني الإنسان لنصنع الأثر</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="image.png">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Noto+Kufi+Arabic:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     LOADER
+===================================================== -->
+
+<div class="loader" id="loader">
+    <div class="loader-inner">
+        <img src="image.png" alt="أكاديمية إنسان">
+        <h3>إنسان</h3>
+        <span>نبني الإنسان لنصنع الأثر</span>
+        <div class="loader-line">
+            <i></i>
+        </div>
+    </div>
+</div>
+
+
+<!-- =====================================================
+     SCROLL PROGRESS
+===================================================== -->
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<header class="navbar" id="navbar">
+
+    <div class="nav-container">
+
+        <a href="#home" class="brand">
+
+            <div class="brand-logo">
+                <img src="image.png" alt="إنسان">
+            </div>
+
+            <div class="brand-name">
+                <strong>إنسان</strong>
+                <span>أكاديمية إنسان</span>
+            </div>
+
+        </a>
+
+
+        <nav class="desktop-nav">
+
+            <a href="#home" class="active">الرئيسية</a>
+            <a href="#about">عن إنسان</a>
+            <a href="#programs">البرامج</a>
+            <a href="#method">منهجنا</a>
+            <a href="#mentors">المدربون</a>
+            <a href="#events">الفعاليات</a>
+
+        </nav>
+
+
+        <div class="nav-actions">
+
+            <!-- SEARCH -->
+
+            <button class="nav-icon" id="searchButton" aria-label="بحث">
+                ⌕
+            </button>
+
+
+            <!-- THEME -->
+
+            <div class="theme-control">
+
+                <button class="theme-toggle" id="themeToggle" aria-label="تغيير المظهر">
+                    <span id="themeIcon">☼</span>
+                </button>
+
+                <div class="theme-menu" id="themeMenu">
+
+                    <div class="theme-menu-title">
+                        مظهر الموقع
+                    </div>
+
+                    <button data-theme="dark" class="theme-option">
+                        <span>🌙</span>
+                        الوضع الداكن
+                    </button>
+
+                    <button data-theme="blue" class="theme-option">
+                        <span>🔵</span>
+                        أبيض وأزرق
+                    </button>
+
+                    <button data-theme="orange" class="theme-option">
+                        <span>🟠</span>
+                        أبيض وبرتقالي
+                    </button>
+
+                    <button data-theme="red" class="theme-option">
+                        <span>🔴</span>
+                        أبيض وأحمر
+                    </button>
+
+                    <button data-theme="purple" class="theme-option">
+                        <span>🟣</span>
+                        أبيض وبنفسجي
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <a href="#programs" class="nav-button">
+                ابدأ رحلتك
+                <span>←</span>
+            </a>
+
+
+            <button class="mobile-button" id="mobileButton">
+                <i></i>
+                <i></i>
+                <i></i>
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- MOBILE -->
+
+    <div class="mobile-nav" id="mobileNav">
+
+        <a href="#home">الرئيسية</a>
+        <a href="#about">عن إنسان</a>
+        <a href="#programs">البرامج</a>
+        <a href="#method">منهجنا</a>
+        <a href="#mentors">المدربون</a>
+        <a href="#impact">الأثر</a>
+        <a href="#events">الفعاليات</a>
+        <a href="#gallery">المعرض</a>
+        <a href="#faq">الأسئلة الشائعة</a>
+        <a href="#contact">تواصل معنا</a>
+
+    </div>
+
+</header>
+
+
+<main>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero" id="home">
+
+    <div class="hero-bg">
+
+        <img
+            src="https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=2200&q=90"
+            alt="مجتمع إنسان">
+
+        <div class="hero-overlay"></div>
+
+    </div>
+
+
+    <div class="hero-container">
+
+        <div class="hero-content">
+
+            <div class="eyebrow">
+                <span></span>
+                أكاديمية تصنع الإنسان
+                <span></span>
+            </div>
+
+
+            <h1>
+                الإنسان هو
+                <em>البداية</em>
+                لكل أثر عظيم.
+            </h1>
+
+
+            <p>
+                مساحة تعليمية مختلفة تجمع بين المعرفة والقيم
+                والمهارات والتجربة، لتساعدك على بناء نسخة أقوى
+                وأكثر وعياً من نفسك.
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a href="#programs" class="button primary">
+                    ابدأ رحلتك
+                    <span>←</span>
+                </a>
+
+                <button class="button video-button" id="videoButton">
+
+                    <span class="play">
+                        ▶
+                    </span>
+
+                    تعرّف على إنسان
+
+                </button>
+
+            </div>
+
+
+            <div class="hero-info">
+
+                <div>
+                    <strong>12,632+</strong>
+                    <span>مستفيد</span>
+                </div>
+
+                <div>
+                    <strong>128</strong>
+                    <span>برنامجاً</span>
+                </div>
+
+                <div>
+                    <strong>10+</strong>
+                    <span>سنوات أثر</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+            <div class="hero-card-top">
+                <span>تجربة إنسان</span>
+                <b>01 / 04</b>
+            </div>
+
+            <div class="hero-card-icon">
+                <img src="image.png" alt="">
+            </div>
+
+            <h3>
+                لا تتعلم فقط...
+                <br>
+                <span>عش التجربة.</span>
+            </h3>
+
+            <p>
+                تعلم، طبّق، تعرّف على أشخاص جدد
+                واترك أثراً حقيقياً.
+            </p>
+
+            <a href="#journey">
+                اكتشف الرحلة
+                <span>←</span>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-bottom">
+        <span>اكتشف المزيد</span>
+        <div class="scroll-arrow">↓</div>
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     WHY INSAN
+===================================================== -->
+
+<section class="section why-section" id="about">
+
+    <div class="section-container">
+
+        <div class="section-heading reveal">
+
+            <div class="eyebrow dark">
+                <span></span>
+                لماذا إنسان؟
+            </div>
+
+            <h2>
+                لأن التعليم الحقيقي
+                <span>يغيّر الإنسان.</span>
+            </h2>
+
+            <p>
+                نحن لا نريد أن نعطيك معلومات إضافية فقط.
+                نريد أن نساعدك على تحويل المعرفة إلى تجربة
+                وسلوك وأثر.
+            </p>
+
+        </div>
+
+
+        <div class="why-grid">
+
+            <article class="why-card reveal">
+
+                <span class="card-number">01</span>
+
+                <div class="card-icon">◈</div>
+
+                <h3>تعلم عميق</h3>
+
+                <p>
+                    محتوى مصمم ليغير طريقة تفكيرك،
+                    وليس فقط ليزيد كمية معلوماتك.
+                </p>
+
+                <a href="#programs">اكتشف البرامج ←</a>
+
+            </article>
+
+
+            <article class="why-card featured reveal">
+
+                <span class="card-number">02</span>
+
+                <div class="card-icon">✦</div>
+
+                <h3>مجتمع حقيقي</h3>
+
+                <p>
+                    أشخاص يشبهونك في الطموح،
+                    يجتمعون للتعلم والتجربة وصناعة الأثر.
+                </p>
+
+                <a href="#community">اكتشف المجتمع ←</a>
+
+            </article>
+
+
+            <article class="why-card reveal">
+
+                <span class="card-number">03</span>
+
+                <div class="card-icon">⌁</div>
+
+                <h3>تطبيق وممارسة</h3>
+
+                <p>
+                    لا نكتفي بالنظرية. كل تجربة تحتوي
+                    على مساحة للتطبيق والممارسة.
+                </p>
+
+                <a href="#method">منهجنا ←</a>
+
+            </article>
+
+
+            <article class="why-card reveal">
+
+                <span class="card-number">04</span>
+
+                <div class="card-icon">◎</div>
+
+                <h3>أثر مستمر</h3>
+
+                <p>
+                    الهدف النهائي ليس نهاية البرنامج،
+                    بل بداية أثر يستمر بعده.
+                </p>
+
+                <a href="#impact">شاهد أثرنا ←</a>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PHILOSOPHY
+===================================================== -->
+
+<section class="philosophy">
+
+    <div class="philosophy-bg">إنسان</div>
+
+    <div class="section-container">
+
+        <div class="philosophy-heading reveal">
+
+            <div class="eyebrow light">
+                <span></span>
+                فلسفتنا
+            </div>
+
+            <h2>
+                أربعة أركان.
+                <br>
+                <span>إنسان واحد متكامل.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="pillars">
+
+            <article class="pillar reveal">
+                <span>01</span>
+                <strong>العلم</strong>
+                <p>
+                    فهم أعمق للنفس والعالم
+                    يساعدك على اتخاذ قرارات واعية.
+                </p>
+            </article>
+
+            <article class="pillar active reveal">
+                <span>02</span>
+                <strong>القيم</strong>
+                <p>
+                    مبادئ تمنح معرفتك اتجاهاً
+                    وتجعل أثرك أكثر جمالاً.
+                </p>
+            </article>
+
+            <article class="pillar reveal">
+                <span>03</span>
+                <strong>المهارة</strong>
+                <p>
+                    تحويل الأفكار إلى قدرات
+                    عملية قابلة للتطبيق.
+                </p>
+            </article>
+
+            <article class="pillar reveal">
+                <span>04</span>
+                <strong>الأثر</strong>
+                <p>
+                    أن تتجاوز تجربتك ذاتك
+                    وتترك شيئاً يستمر بعدك.
+                </p>
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     METHOD
+===================================================== -->
+
+<section class="section method-section" id="method">
+
+    <div class="section-container">
+
+        <div class="split-heading reveal">
+
+            <div>
+
+                <div class="eyebrow dark">
+                    <span></span>
+                    منهج إنسان
+                </div>
+
+                <h2>
+                    رحلة من
+                    <span>الاكتشاف إلى الأثر.</span>
+                </h2>
+
+            </div>
+
+            <p>
+                صممنا منهجنا حول فكرة بسيطة:
+                الإنسان لا يتغير بالمعلومة وحدها،
+                بل عندما يكتشف ويتعلم ويجرب ثم يؤثر.
+            </p>
+
+        </div>
+
+
+        <div class="method-timeline">
+
+            <div class="method-line"></div>
+
+            <article class="method-step reveal">
+
+                <div class="step-number">01</div>
+
+                <div>
+                    <small>STEP ONE</small>
+                    <h3>اكتشف</h3>
+                    <p>
+                        افهم نفسك، نقاط قوتك،
+                        دوافعك وما الذي تريد أن تصبح عليه.
+                    </p>
+                </div>
+
+            </article>
+
+
+            <article class="method-step reveal">
+
+                <div class="step-number">02</div>
+
+                <div>
+                    <small>STEP TWO</small>
+                    <h3>تعلّم</h3>
+                    <p>
+                        اكتسب المعرفة والأدوات
+                        التي تحتاجها لتتقدم.
+                    </p>
+                </div>
+
+            </article>
+
+
+            <article class="method-step reveal">
+
+                <div class="step-number">03</div>
+
+                <div>
+                    <small>STEP THREE</small>
+                    <h3>طبّق</h3>
+                    <p>
+                        حوّل ما تعلمته إلى ممارسة
+                        وتجارب حقيقية.
+                    </p>
+                </div>
+
+            </article>
+
+
+            <article class="method-step reveal">
+
+                <div class="step-number">04</div>
+
+                <div>
+                    <small>STEP FOUR</small>
+                    <h3>تواصل</h3>
+                    <p>
+                        ابنِ علاقات مع مجتمع
+                        يشاركك الرحلة والطموح.
+                    </p>
+                </div>
+
+            </article>
+
+
+            <article class="method-step reveal">
+
+                <div class="step-number">05</div>
+
+                <div>
+                    <small>STEP FIVE</small>
+                    <h3>أثّر</h3>
+                    <p>
+                        استخدم كل ما تعلمته
+                        لصناعة أثر يتجاوزك.
+                    </p>
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PROGRAM EXPLORER
+===================================================== -->
+
+<section class="section programs-section" id="programs">
+
+    <div class="section-container">
+
+        <div class="split-heading reveal">
+
+            <div>
+
+                <div class="eyebrow dark">
+                    <span></span>
+                    برامجنا
+                </div>
+
+                <h2>
+                    اختر المسار
+                    <span>الذي يناسبك.</span>
+                </h2>
+
+            </div>
+
+            <p>
+                برامج وتجارب مختلفة، لكن الهدف واحد:
+                مساعدتك على النمو.
+            </p>
+
+        </div>
+
+
+        <div class="program-filters">
+
+            <button class="filter active" data-filter="all">
+                الكل
+            </button>
+
+            <button class="filter" data-filter="leadership">
+                القيادة
+            </button>
+
+            <button class="filter" data-filter="skills">
+                المهارات
+            </button>
+
+            <button class="filter" data-filter="growth">
+                التطوير الشخصي
+            </button>
+
+            <button class="filter" data-filter="knowledge">
+                المعرفة
+            </button>
+
+        </div>
+
+
+        <div class="program-grid">
+
+
+            <article class="program-card featured-program reveal"
+                data-category="growth">
+
+                <div class="program-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1400&q=90"
+                        alt="برنامج بناء الإنسان">
+
+                    <span class="program-label">
+                        البرنامج الأبرز
+                    </span>
+
+                </div>
+
+                <div class="program-body">
+
+                    <div class="program-meta">
+                        <span>12 أسبوعاً</span>
+                        <span>•</span>
+                        <span>حضوري</span>
+                    </div>
+
+                    <h3>بناء الإنسان</h3>
+
+                    <p>
+                        تجربة متكاملة لفهم الذات وبناء الرؤية
+                        وتطوير المهارات وصناعة الأثر.
+                    </p>
+
+                    <a href="#">
+                        تفاصيل البرنامج
+                        <span>←</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="program-card reveal"
+                data-category="leadership">
+
+                <div class="program-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=90"
+                        alt="صناعة القائد">
+
+                    <span class="program-label">
+                        قيادة
+                    </span>
+
+                </div>
+
+                <div class="program-body">
+
+                    <div class="program-meta">
+                        <span>6 أسابيع</span>
+                        <span>•</span>
+                        <span>مباشر</span>
+                    </div>
+
+                    <h3>صناعة القائد</h3>
+
+                    <p>
+                        طور قدرتك على القيادة والتأثير
+                        والتواصل واتخاذ القرار.
+                    </p>
+
+                    <a href="#">
+                        تفاصيل البرنامج
+                        <span>←</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="program-card reveal"
+                data-category="skills">
+
+                <div class="program-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=90"
+                        alt="مهارات المستقبل">
+
+                    <span class="program-label">
+                        مهارات
+                    </span>
+
+                </div>
+
+                <div class="program-body">
+
+                    <div class="program-meta">
+                        <span>4 أسابيع</span>
+                        <span>•</span>
+                        <span>تفاعلي</span>
+                    </div>
+
+                    <h3>مهارات المستقبل</h3>
+
+                    <p>
+                        أدوات عملية للتواصل والتفكير
+                        والإنتاجية والعمل الجماعي.
+                    </p>
+
+                    <a href="#">
+                        تفاصيل البرنامج
+                        <span>←</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="program-card reveal"
+                data-category="knowledge">
+
+                <div class="program-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1000&q=90"
+                        alt="حوارات إنسان">
+
+                    <span class="program-label">
+                        معرفة
+                    </span>
+
+                </div>
+
+                <div class="program-body">
+
+                    <div class="program-meta">
+                        <span>4 أسابيع</span>
+                        <span>•</span>
+                        <span>مسائي</span>
+                    </div>
+
+                    <h3>حوارات إنسان</h3>
+
+                    <p>
+                        نقاشات عميقة حول الأسئلة
+                        والأفكار التي تصنع الإنسان.
+                    </p>
+
+                    <a href="#">
+                        تفاصيل البرنامج
+                        <span>←</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FIND YOUR PATH
+===================================================== -->
+
+<section class="path-section">
+
+    <div class="path-background"></div>
+
+    <div class="section-container">
+
+        <div class="path-box reveal">
+
+            <div class="path-header">
+
+                <div class="eyebrow light">
+                    <span></span>
+                    اكتشف مسارك
+                </div>
+
+                <h2>
+                    ماذا تريد
+                    <span>أن تطور؟</span>
+                </h2>
+
+                <p>
+                    أجب عن سؤال واحد وسنساعدك في العثور
+                    على المسار الأقرب لهدفك.
+                </p>
+
+            </div>
+
+
+            <div class="path-question" id="pathQuestion">
+
+                <h3>
+                    ما المجال الذي تريد تطويره؟
+                </h3>
+
+                <div class="path-options">
+
+                    <button data-result="leadership">
+                        القيادة
+                    </button>
+
+                    <button data-result="confidence">
+                        الثقة بالنفس
+                    </button>
+
+                    <button data-result="communication">
+                        التواصل
+                    </button>
+
+                    <button data-result="career">
+                        المسار المهني
+                    </button>
+
+                    <button data-result="growth">
+                        النمو الشخصي
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="path-result" id="pathResult">
+
+                <span>المسار المقترح لك</span>
+
+                <h3 id="resultTitle">
+                    برنامج بناء الإنسان
+                </h3>
+
+                <p id="resultText">
+                    رحلة متكاملة تبدأ من الداخل.
+                </p>
+
+                <a href="#programs">
+                    شاهد البرامج
+                    ←
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     MENTORS
+===================================================== -->
+
+<section class="section mentors-section" id="mentors">
+
+    <div class="section-container">
+
+        <div class="section-heading reveal">
+
+            <div class="eyebrow dark">
+                <span></span>
+                عقول خلف التجربة
+            </div>
+
+            <h2>
+                تعلّم من
+                <span>أشخاص يصنعون الفرق.</span>
+            </h2>
+
+            <p>
+                نخبة من المدربين والممارسين والخبراء
+                الذين يجمعون بين المعرفة والخبرة.
+            </p>
+
+        </div>
+
+
+        <div class="mentors-grid">
+
+            <article class="mentor-card reveal">
+
+                <div class="mentor-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=90"
+                        alt="أحمد">
+
+                    <div class="mentor-social">
+                        in
+                    </div>
+
+                </div>
+
+                <div class="mentor-info">
+                    <span>Leadership</span>
+                    <h3>أحمد السالم</h3>
+                    <p>خبير في القيادة والتطوير المؤسسي</p>
+                </div>
+
+            </article>
+
+
+            <article class="mentor-card reveal">
+
+                <div class="mentor-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=90"
+                        alt="سارة">
+
+                    <div class="mentor-social">
+                        in
+                    </div>
+
+                </div>
+
+                <div class="mentor-info">
+                    <span>Personal Growth</span>
+                    <h3>سارة محمد</h3>
+                    <p>مستشارة في بناء الذات والمهارات الشخصية</p>
+                </div>
+
+            </article>
+
+
+            <article class="mentor-card reveal">
+
+                <div class="mentor-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=90"
+                        alt="عمر">
+
+                    <div class="mentor-social">
+                        in
+                    </div>
+
+                </div>
+
+                <div class="mentor-info">
+                    <span>Communication</span>
+                    <h3>عمر خالد</h3>
+                    <p>مدرب في التواصل والتأثير والإقناع</p>
+                </div>
+
+            </article>
+
+
+            <article class="mentor-card reveal">
+
+                <div class="mentor-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=90"
+                        alt="نورة">
+
+                    <div class="mentor-social">
+                        in
+                    </div>
+
+                </div>
+
+                <div class="mentor-info">
+                    <span>Future Skills</span>
+                    <h3>نورة العتيبي</h3>
+                    <p>متخصصة في مهارات المستقبل والتعلم</p>
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     IMPACT
+===================================================== -->
+
+<section class="impact-section" id="impact">
+
+    <div class="section-container">
+
+        <div class="impact-heading reveal">
+
+            <div class="eyebrow light">
+                <span></span>
+                أرقام تتحدث
+            </div>
+
+            <h2>
+                أثرنا أكبر
+                <span>من الأرقام.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="impact-grid">
+
+            <div class="impact-item reveal">
+                <strong class="counter" data-target="12632">0</strong>
+                <span>مستفيداً</span>
+            </div>
+
+            <div class="impact-item reveal">
+                <strong class="counter" data-target="128">0</strong>
+                <span>برنامجاً</span>
+            </div>
+
+            <div class="impact-item reveal">
+                <strong class="counter" data-target="80">0</strong>
+                <span>مدرباً وخبيراً</span>
+            </div>
+
+            <div class="impact-item reveal">
+                <strong class="counter" data-target="24">0</strong>
+                <span>شريكاً</span>
+            </div>
+
+            <div class="impact-item reveal">
+                <strong class="counter" data-target="10">0</strong>
+                <span>سنوات من الأثر</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     COMMUNITY
+===================================================== -->
+
+<section class="section community-section" id="community">
+
+    <div class="section-container">
+
+        <div class="community-layout">
+
+            <div class="community-content reveal">
+
+                <div class="eyebrow dark">
+                    <span></span>
+                    مجتمع إنسان
+                </div>
+
+                <h2>
+                    أكثر من
+                    <span>برنامج.</span>
+                    <br>
+                    إنها جماعة.
+                </h2>
+
+                <p>
+                    في إنسان، العلاقات جزء من الرحلة.
+                    ستتعرف على أشخاص جدد، تشارك الأفكار،
+                    تعمل على مشاريع وتبني شبكة تستمر معك.
+                </p>
+
+                <a href="#contact" class="button primary">
+                    انضم للمجتمع
+                    <span>←</span>
+                </a>
+
+            </div>
+
+
+            <div class="community-visual reveal">
+
+                <div class="community-main">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=90"
+                        alt="مجتمع إنسان">
+
+                </div>
+
+                <div class="community-small">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=800&q=90"
+                        alt="مجتمع">
+
+                </div>
+
+                <div class="community-number">
+                    +8K
+                    <span>عضو في المجتمع</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     EVENTS
+===================================================== -->
+
+<section class="section events-section" id="events">
+
+    <div class="section-container">
+
+        <div class="split-heading reveal">
+
+            <div>
+
+                <div class="eyebrow dark">
+                    <span></span>
+                    القادم في إنسان
+                </div>
+
+                <h2>
+                    فعاليات تستحق
+                    <span>الحضور.</span>
+                </h2>
+
+            </div>
+
+            <div class="slider-buttons">
+
+                <button id="eventNext">←</button>
+                <button id="eventPrev">→</button>
+
+            </div>
+
+        </div>
+
+
+        <div class="events-slider" id="eventsSlider">
+
+
+            <article class="event-card reveal">
+
+                <div class="event-date">
+                    <strong>18</strong>
+                    <span>أكتوبر</span>
+                </div>
+
+                <div class="event-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1000&q=90"
+                        alt="فعالية">
+
+                </div>
+
+                <div class="event-body">
+
+                    <span>لقاء مفتوح</span>
+
+                    <h3>
+                        كيف تبني مسارك الشخصي؟
+                    </h3>
+
+                    <p>
+                        رحلة عملية لفهم الذات وصناعة رؤية واضحة.
+                    </p>
+
+                    <a href="#">
+                        احجز مقعدك ←
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="event-card reveal">
+
+                <div class="event-date">
+                    <strong>26</strong>
+                    <span>أكتوبر</span>
+                </div>
+
+                <div class="event-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=90"
+                        alt="ورشة">
+
+                </div>
+
+                <div class="event-body">
+
+                    <span>ورشة عمل</span>
+
+                    <h3>
+                        مهارات الحوار والتأثير
+                    </h3>
+
+                    <p>
+                        تجربة عملية لتطوير التواصل وبناء العلاقات.
+                    </p>
+
+                    <a href="#">
+                        احجز مقعدك ←
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="event-card reveal">
+
+                <div class="event-date">
+                    <strong>04</strong>
+                    <span>نوفمبر</span>
+                </div>
+
+                <div class="event-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1000&q=90"
+                        alt="مجتمع">
+
+                </div>
+
+                <div class="event-body">
+
+                    <span>مجتمع إنسان</span>
+
+                    <h3>
+                        أمسية الأفكار
+                    </h3>
+
+                    <p>
+                        لقاء يجمع المهتمين بالأفكار والتجارب الملهمة.
+                    </p>
+
+                    <a href="#">
+                        احجز مقعدك ←
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     GALLERY
+===================================================== -->
+
+<section class="section gallery-section" id="gallery">
+
+    <div class="section-container">
+
+        <div class="section-heading reveal">
+
+            <div class="eyebrow dark">
+                <span></span>
+                من حياة إنسان
+            </div>
+
+            <h2>
+                لحظات تصنع
+                <span>ذاكرة وأثراً.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item large reveal">
+
+                <img
+                    src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1400&q=90"
+                    alt="">
+
+                <button class="gallery-open">+</button>
+
+            </div>
+
+
+            <div class="gallery-item reveal">
+
+                <img
+                    src="https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&w=1000&q=90"
+                    alt="">
+
+                <button class="gallery-open">+</button>
+
+            </div>
+
+
+            <div class="gallery-item reveal">
+
+                <img
+                    src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=90"
+                    alt="">
+
+                <button class="gallery-open">+</button>
+
+            </div>
+
+
+            <div class="gallery-item wide reveal">
+
+                <img
+                    src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1400&q=90"
+                    alt="">
+
+                <button class="gallery-open">+</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     TESTIMONIAL
+===================================================== -->
+
+<section class="testimonial-section">
+
+    <div class="testimonial-mark">“</div>
+
+    <div class="section-container">
+
+        <div class="testimonial-content reveal">
+
+            <div class="eyebrow light">
+                <span></span>
+                أصوات من مجتمع إنسان
+            </div>
+
+            <blockquote id="testimonialText">
+
+                "إنسان لم يكن مجرد برنامج شاركت فيه،
+                بل تجربة جعلتني أنظر لنفسي وحياتي بطريقة مختلفة."
+
+            </blockquote>
+
+
+            <div class="testimonial-person">
+
+                <img
+                    id="testimonialImage"
+                    src="https://i.pravatar.cc/150?img=47"
+                    alt="">
+
+                <div>
+
+                    <strong id="testimonialName">
+                        سلمى محمد
+                    </strong>
+
+                    <span>
+                        أحد أعضاء مجتمع إنسان
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="testimonial-controls">
+
+                <button id="testimonialPrev">→</button>
+
+                <div>
+                    <span>01</span>
+                    <i></i>
+                    <span>03</span>
+                </div>
+
+                <button id="testimonialNext">←</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FAQ
+===================================================== -->
+
+<section class="section faq-section" id="faq">
+
+    <div class="section-container">
+
+        <div class="faq-layout">
+
+            <div class="faq-heading reveal">
+
+                <div class="eyebrow dark">
+                    <span></span>
+                    الأسئلة الشائعة
+                </div>
+
+                <h2>
+                    لديك سؤال؟
+                    <span>لدينا إجابة.</span>
+                </h2>
+
+                <p>
+                    إذا لم تجد إجابتك هنا،
+                    يمكنك التواصل معنا مباشرة.
+                </p>
+
+                <a href="#contact" class="text-button">
+                    تواصل معنا ←
+                </a>
+
+            </div>
+
+
+            <div class="faq-list reveal">
+
+
+                <div class="faq-item">
+
+                    <button>
+                        هل البرامج حضورية أم عن بعد؟
+                        <span>+</span>
+                    </button>
+
+                    <div class="faq-answer">
+                        <p>
+                            لدينا برامج حضورية، مباشرة عن بعد،
+                            وتجارب تفاعلية. يوضح كل برنامج نوع التجربة.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="faq-item">
+
+                    <button>
+                        كيف يمكنني التسجيل؟
+                        <span>+</span>
+                    </button>
+
+                    <div class="faq-answer">
+                        <p>
+                            اختر البرنامج المناسب لك واضغط
+                            على التسجيل، ثم أكمل بياناتك.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="faq-item">
+
+                    <button>
+                        هل أحصل على شهادة؟
+                        <span>+</span>
+                    </button>
+
+                    <div class="faq-answer">
+                        <p>
+                            تختلف الشهادة حسب البرنامج،
+                            وستجد تفاصيلها في صفحة كل برنامج.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="faq-item">
+
+                    <button>
+                        لمن تناسب برامج إنسان؟
+                        <span>+</span>
+                    </button>
+
+                    <div class="faq-answer">
+                        <p>
+                            برامجنا مصممة للأشخاص الذين يريدون
+                            تطوير أنفسهم ومهاراتهم وصناعة أثر أكبر.
+                        </p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     NEWSLETTER
+===================================================== -->
+
+<section class="newsletter-section">
+
+    <div class="section-container">
+
+        <div class="newsletter-box reveal">
+
+            <div>
+
+                <div class="eyebrow light">
+                    <span></span>
+                    ابقَ قريباً
+                </div>
+
+                <h2>
+                    أشياء جميلة
+                    <span>قادمة.</span>
+                </h2>
+
+                <p>
+                    اشترك ليصلك جديد البرامج والفعاليات
+                    والأفكار من إنسان.
+                </p>
+
+            </div>
+
+
+            <form id="newsletterForm">
+
+                <input
+                    type="email"
+                    placeholder="بريدك الإلكتروني"
+                    required>
+
+                <button>
+                    اشترك الآن
+                    ←
+                </button>
+
+                <small id="formMessage"></small>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section class="section contact-section" id="contact">
+
+    <div class="section-container">
+
+        <div class="contact-layout">
+
+            <div class="contact-content reveal">
+
+                <div class="eyebrow dark">
+                    <span></span>
+                    تواصل معنا
+                </div>
+
+                <h2>
+                    لنجعل
+                    <span>الأثر</span>
+                    يبدأ منك.
+                </h2>
+
+                <p>
+                    لديك سؤال، فكرة، شراكة أو تريد الانضمام؟
+                    نحن نحب أن نسمع منك.
+                </p>
+
+                <div class="contact-details">
+
+                    <a href="mailto:hello@insan.academy">
+                        <span>✉</span>
+                        hello@insan.academy
+                    </a>
+
+                    <a href="tel:+966500000000">
+                        <span>☎</span>
+                        +966 50 000 0000
+                    </a>
+
+                    <div>
+                        <span>⌖</span>
+                        الرياض، المملكة العربية السعودية
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <form class="contact-form reveal" id="contactForm">
+
+                <div class="input-row">
+
+                    <label>
+                        الاسم
+                        <input type="text" placeholder="اسمك" required>
+                    </label>
+
+                    <label>
+                        البريد
+                        <input type="email" placeholder="example@email.com" required>
+                    </label>
+
+                </div>
+
+                <label>
+                    الموضوع
+                    <input type="text" placeholder="كيف يمكننا مساعدتك؟" required>
+                </label>
+
+                <label>
+                    رسالتك
+                    <textarea rows="5" placeholder="اكتب رسالتك هنا..." required></textarea>
+                </label>
+
+                <button class="button primary">
+                    إرسال الرسالة
+                    ←
+                </button>
+
+                <small id="contactMessage"></small>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-main">
+
+
+            <div class="footer-brand">
+
+                <a href="#home" class="brand">
+
+                    <div class="brand-logo">
+                        <img src="image.png" alt="إنسان">
+                    </div>
+
+                    <div class="brand-name">
+                        <strong>إنسان</strong>
+                        <span>أكاديمية إنسان</span>
+                    </div>
+
+                </a>
+
+                <p>
+                    نبني الإنسان،
+                    لنصنع أثراً يبقى.
+                </p>
+
+                <div class="socials">
+
+                    <a target="_blank"
+                        href="https://www.instagram.com/insan.academy.tr/">
+                        Instagram
+                    </a>
+
+                    <a target="_blank"
+                        href="https://www.facebook.com/insanacademy.org">
+                        Facebook
+                    </a>
+
+                    <a target="_blank"
+                        href="https://www.youtube.com/@insanacademy_org">
+                        YouTube
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>الأكاديمية</h4>
+
+                <a href="#about">عن إنسان</a>
+                <a href="#programs">برامجنا</a>
+                <a href="#method">منهجنا</a>
+                <a href="#mentors">المدربون</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>استكشف</h4>
+
+                <a href="#events">الفعاليات</a>
+                <a href="#gallery">المعرض</a>
+                <a href="#community">المجتمع</a>
+                <a href="#faq">الأسئلة الشائعة</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>تواصل معنا</h4>
+
+                <a href="mailto:hello@insan.academy">
+                    hello@insan.academy
+                </a>
+
+                <a href="tel:+966500000000">
+                    +966 50 000 0000
+                </a>
+
+                <span>
+                    الرياض، السعودية
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 أكاديمية إنسان. جميع الحقوق محفوظة.
+            </span>
+
+            <div>
+                <a href="#">سياسة الخصوصية</a>
+                <a href="#">الشروط والأحكام</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<div class="search-overlay" id="searchOverlay">
+
+    <button class="close-overlay" id="closeSearch">
+        ×
+    </button>
+
+    <div class="search-box">
+
+        <span>⌕</span>
+
+        <input
+            type="search"
+            placeholder="ابحث في أكاديمية إنسان..."
+            id="searchInput">
+
+    </div>
+
+</div>
+
+
+<div class="image-modal" id="imageModal">
+
+    <button id="closeImage">
+        ×
+    </button>
+
+    <img id="modalImage" src="" alt="">
+
+</div>
+
+
+<!-- =====================================================
+     VIDEO MODAL
+===================================================== -->
+
+<div class="video-modal" id="videoModal">
+
+    <div class="video-box">
+
+        <button id="closeVideo">
+            ×
+        </button>
+
+        <div class="fake-video">
+
+            <div>
+                ▶
+            </div>
+
+            <span>
+                فيديو تعريفي بأكاديمية إنسان
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
